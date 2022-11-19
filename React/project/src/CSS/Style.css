@@ -1,0 +1,283 @@
+body {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 1),#D6AD60);
+    background-repeat: no-repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  float: left;
+}
+.container li:hover {
+  overflow: hidden;
+  transition: 2s;
+  transition-duration: 3s;
+  text-transform: scale(3);
+}
+.container img {
+  margin: 0px;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
+.container h3 {
+  text-align: center;
+}
+.nav {
+  background-color: #222222;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient(BLACK 0 87%, #b68d40 97% 100%);
+  position: static;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  float: left;
+  font-family: "Glimmer of light";
+  /* font-family: "Franchise Regular"; */
+  /* font-size: 21px;
+  letter-spacing: 1px; */
+}
+
+.nav .logo {
+  font-size: 20px;
+  font-family: "Glimmer of light";
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+}
+
+.nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.nav a {
+  padding: 7px 15px;
+  text-decoration: none;
+  position: relative;
+  color: #d6ad60;
+  overflow: hidden;
+  background: linear-gradient(to right, white, white 50%, #d6ad60 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 489ms ease;
+}
+
+.nav a.current,
+.nav a:hover {
+  background-position: 0 100%;
+}
+
+.custom-search {
+  position: absolute;
+  right: 20px;
+  top: 1px;
+}
+
+#typeahead {
+  background-color: transparent;
+  background-image: url("https://icons.iconarchive.com/icons/custom-icon-design/flatastic-1/512/search-icon.png");
+  background-position: 1px;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: none;
+  cursor: pointer;
+  height: 37px;
+  margin-top: 23px;
+  padding: 0 0 0 25px;
+  width: 0;
+  color: #d6ad60;
+  margin-right: 55px;
+}
+
+#typeahead:focus {
+  background-color: transparent;
+  border: 2px solid black;
+  cursor: text;
+  outline: 0;
+  width: 230px;
+  border-bottom: 1px solid #b68d40;
+}
+
+.search-btn {
+  display: none;
+  border-bottom: 2px solid #b68d40;
+}
+
+::placeholder {
+  color: #b68d40;
+  padding: 20px;
+  background-color: black;
+}
+
+.nav img {
+  width: 50px;
+  padding-top: 8px;
+  padding-right: 10px;
+  float: right;
+}
+
+.scroll-panels {
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+}
+.scroll-panels img {
+  width: 70%;
+  height: 50%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  float: left;
+}
+/* .Desc{
+  display: block;
+  width: 592px;
+  height: 499.5px;
+  overflow: hidden;
+  background-color: black;
+   background-size: contain;
+   opacity: 20%;
+}
+.Desc p{
+  padding: 20px;
+    color: aliceblue;
+    text-align: center;
+} */
+.movie-panels {
+  padding: 50px;
+  margin: 0 auto;
+  float: left;
+}
+.movie-panels a {
+  text-decoration: none;
+  font-family: "Market Deco";
+  font-size: 36px;
+  color: white;
+}
+.movie-panels img {
+  overflow: hidden;
+  height: 200px;
+  transition: transform 0.2s;
+  padding: 19px;
+}
+.movie-panels img:hover {
+  overflow: hidden;
+  transform: scale(1.3);
+}
+video {
+  margin-left: 7%;
+}
+.movie-text {
+  color: white;
+  margin: 30px;
+}
+.movie-text h1 {
+  color: #b68d40;
+  font-family: "Market Deco";
+  letter-spacing: 0.5px;
+  font-weight: lighter;
+}
+.movie-text p {
+  font-family: Arial;
+  line-height: 26px;
+}
+.movie-text img {
+  float: left;
+  overflow: hidden;
+  width: 150px;
+  height: 200px;
+  padding: 19px;
+}
+
+button[type="button"] {
+  color: black;
+  background-color: #b68d40;
+  border-radius: 40px;
+  text-align: center;
+  width: 30%;
+  height: 45px;
+  padding: 8px;
+  opacity: 1;
+  margin-left: 35%;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.movie {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+ #slider {
+     position: relative;
+     width:1024px;
+     height:500px;
+     margin: 10px auto 30px auto;
+     overflow: hidden;
+     border-radius:10px;
+   
+   }
+   #slider ul {
+     position: relative;
+     list-style: none;
+     height: 100%;
+     width: 1000%;
+     padding: 0;
+     margin: 0;
+     transition: all 750ms ease;
+     left: 0;
+   }
+   #slider ul li {
+     position: relative;
+     height: 100%;
+     float: left;
+   }
+   #slider ul li img{
+     width: 1024px;
+     height: 500px;
+   
+   }
+   
+   #slider #prev, #slider #next {
+     width: 40px;
+     line-height: 40px;
+     font-size: 1.3rem;
+     text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+     text-align: center;
+     color: #b68d40;
+     background: inherit;
+     text-decoration: none;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     transition: all 300ms ease;
+     border-radius: 20px;
+   }
+   #slider #prev:hover, #slider #next:hover {
+     background-color: #b68d40;
+     text-shadow: 0;
+     color: white;
+   }
+   #slider #next {
+     right: 0px;
+   }

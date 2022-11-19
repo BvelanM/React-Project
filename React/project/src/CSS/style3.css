@@ -1,0 +1,102 @@
+*{
+      align-items: center;
+}
+.d{
+    margin-left: 0px;
+    overflow: hidden;
+    /* font-family:sans-serif; */
+    color: #D6AD60;
+    /* overflow: hidden; */
+    /* float: left; */
+    margin-right: 50px;
+    /* background-size:100% 140; */
+    /* background-position: center; */
+    height: 100%;
+    /* background-size:900px; */
+    /* background-repeat: no-repeat; */
+}
+h1{
+    font-family: "Underground NF";
+    font-weight: lighter;
+    font-size: 60px;
+}
+body{
+    /* font-family:sans-serif; */
+    /* -webkit-font-smoothing:antialiased; */
+    color: #D6AD60;
+    overflow: hidden;
+    float: right;
+    margin-right: 100px;
+    background-image: url("../MEDIA/Backg.jpg");
+    /* background-position: center; */
+    /* background-size:100% 170%; */
+    height: 100%;
+    /* background-size:900px; */
+    /* background-repeat: no-repeat; */
+    
+}
+
+.bad
+{
+    float: left;
+}
+input{
+    padding: 10px;
+}
+.sad
+{
+    margin-top: 0px;
+    float: left;
+    background-color: #020202;
+    padding: 60px 80px ;
+    opacity:1;
+    border-radius: 8px;
+    box-shadow: -10px 10px 90px black;
+}
+.sadd
+{
+    margin-top: 15px;
+    background-color: #020202;
+    padding: 70px 70px ;
+    border-radius: 8px;
+        box-shadow: 500px 60px 90px black;
+}
+.sadd h1{
+    font-family: "Underground NF";
+    font-weight: lighter;
+    font-size: 60px;
+}
+input[type=text],[type=password],[type=number]{
+    background-color: #020202;
+    border: none;
+    border-bottom: 2px solid grey;
+    color: #D6AD60;
+}
+button
+{
+    padding: 8px;
+    width: 200px;
+    background-color: #D6AD60;
+    color: black;
+    opacity: 1.0;
+}
+::placeholder
+{
+     color: #D6AD60;
+     font-size: medium;
+}
+.sd{
+    color:#D6AD60;
+}
+#gen
+{
+    border:1px solid black;
+    background-color: black;
+    border-bottom: 2px solid grey;
+    color:#D6AD60
+}
+.ss
+{
+    color: black;
+    text-decoration: none;
+}

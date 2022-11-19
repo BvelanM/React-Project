@@ -1,0 +1,12 @@
+body{
+ background-image: url("../MEDIA/Backg.jpg");
+}
+.uc{
+ margin-top: 13%;
+ margin-left: 30%;
+}
+.uc img{
+ height: 400px;
+ opacity: 0.9;
+}
+
